@@ -2,7 +2,7 @@ let canvas = document.getElementById("snake");
 let contexto = canvas.getContext("2d");
 let box = 32;
 let imagemBackground = new Image();
-imagemBackground.src = 'img/fig1.png';
+imagemBackground.src = "img/fig1.png";
 let ambulancia = [];
 ambulancia[0] = {
     x: 1 * box,
